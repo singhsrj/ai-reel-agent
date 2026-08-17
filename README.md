@@ -6,6 +6,8 @@
 AI Reel Agent is a fully local pipeline that takes a horizontal podcast video and automatically generates a ready-to-post 9:16 vertical reel. It finds the best moments, removes dead air, centers the speaker, and adds word-synced captions.
 
 ---
+<img width="1312" height="477" alt="image" src="https://github.com/user-attachments/assets/7cce1a08-c2ad-4ae7-8b0e-5b0cb3ef6432" />
+
 
 ## ✨ Features
 
