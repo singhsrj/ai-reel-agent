@@ -73,6 +73,9 @@ python main.py podcast.mp4 -o reel.mp4
 
 ```
 
+## Logical data flow
+<img width="553" height="610" alt="image" src="https://github.com/user-attachments/assets/2529d041-cd9e-4a4e-bd47-78b2e2472fcd" />
+
 ### ⚙️ Configuration Options
 
 | Option | Description | Default |
@@ -86,9 +89,10 @@ python main.py podcast.mp4 -o reel.mp4
 
 ---
 
-## 🚧 Known Limitations & Roadmap
-
-This is an MVP. Here is what is currently being worked on or planned for future releases:
+##Design Principles
+###Fully Local: Utilizes faster-whisper for transcription and Ollama for LLM orchestration, ensuring no cloud API costs or privacy leaks.
+###Privacy-First: All processing, from raw video frames to transcript analysis, happens on the local CPU/GPU. 
+###Automated Heuristics: Combines LLM semantic understanding with computer vision (Haar cascades) to automate editing decisions that usually require a human editor
 
 ### Current Limitations
 
