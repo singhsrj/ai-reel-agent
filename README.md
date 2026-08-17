@@ -89,10 +89,10 @@ python main.py podcast.mp4 -o reel.mp4
 
 ---
 
-##Design Principles
-###Fully Local: Utilizes faster-whisper for transcription and Ollama for LLM orchestration, ensuring no cloud API costs or privacy leaks.
-###Privacy-First: All processing, from raw video frames to transcript analysis, happens on the local CPU/GPU. 
-###Automated Heuristics: Combines LLM semantic understanding with computer vision (Haar cascades) to automate editing decisions that usually require a human editor
+## Design Principles
+### Fully Local: Utilizes faster-whisper for transcription and Ollama for LLM orchestration, ensuring no cloud API costs or privacy leaks.
+### Privacy-First: All processing, from raw video frames to transcript analysis, happens on the local CPU/GPU. 
+### Automated Heuristics: Combines LLM semantic understanding with computer vision (Haar cascades) to automate editing decisions that usually require a human editor.
 
 ### Current Limitations
 
